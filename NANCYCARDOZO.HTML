@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nancy Cardozo - Autora</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #f8f4e3;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #5a4c3a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #e6dcc5;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #5a4c3a;
+        }
+
+        .book {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #fff;
+        }
+
+        .book img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+
+        .book-details {
+            display: flex;
+            align-items: center;
+        }
+
+        .book-info {
+            flex-grow: 1;
+        }
+
+        .book h3 {
+            margin: 0 0 10px 0;
+            color: #333;
+        }
+
+        .book p {
+            margin: 5px 0;
+        }
+
+        footer {
+            background-color: #5a4c3a;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .cart-button {
+            background-color: #5a4c3a;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .cart-button:hover {
+            background-color: #3e3529;
+        }
+
+        @media (max-width: 768px) {
+            .book-details {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .book img {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        Nancy Cardozo - Autora
+    </header>
+
+    <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#books">Mis Libros</a>
+        <a href="#contact">Carrito de Compras</a>
+    </nav>
+
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Soy Nancy Cardozo, autora y consultora psicológica. Mis libros reflejan mi pasión por contar historias que inspiran y desafían las perspectivas. A través de mis escritos, busco explorar temas complejos con sensibilidad y respeto, con el objetivo de fomentar valores y empatía en mis lectores.</p>
+    </section>
+
+    <section id="books">
+        <h2>Mis Libros</h2>
+        <div class="book">
+            <div class="book-details">
+                <img src="https://via.placeholder.com/150" alt="Primera vez">
+                <div class="book-info">
+                    <h3>Primera vez</h3>
+                    <p>Una colección de historias y reflexiones sobre la experiencia humana, abarcando temas desde la salud hasta la diversidad social.</p>
+                    <button class="cart-button">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+        <!-- Puedes añadir más libros repitiendo el bloque de código anterior -->
+    </section>
+
+    <section id="contact">
+        <h2>Carrito de Compras</h2>
+        <p>Aquí podrás ver los libros que has seleccionado para la compra. Funcionalidad de carrito en desarrollo.</p>
+    </section>
+
+    <footer>
+        © 2024 Nancy Cardozo
+    </footer>
+</body>
+
+</html>
